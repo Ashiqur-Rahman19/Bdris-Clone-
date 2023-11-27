@@ -1,0 +1,181 @@
+
+
+/* Header starts here */
+.header-row p, span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #336BB0;
+}
+
+.header-row p {
+    color: #336BB0;
+    transition: .2s;
+}
+
+.header-row p:hover {
+   color: black;
+   cursor: pointer;
+   transition: .2s;
+}
+
+.header-row span:hover {
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+ }
+
+.header-row i {
+    margin-left: 7px;
+    font-size: 8px;
+    background-color: rgb(233, 238, 238) !important;
+    color:rgb(95, 95, 95);
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-item a{
+    color: #336BB0;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.nav-item {
+   margin-bottom: -10px;
+}
+
+.nav-item a:hover{
+    background-color: #8CC63E;
+    padding: 10px 20px;
+}
+
+/* Header ends here */
+
+.hr-style{
+    margin-top: 0px;
+    margin-bottom: none;
+    border: 4px solid #336BB0;
+    opacity: 1;
+    border-bottom: none;
+}
+
+/* Main starts here */
+.my-class-1 p{
+    border-bottom: 1px solid rgb(240, 240, 240);
+    border-left: 1px solid rgb(240, 240, 240);
+    border-right: 1px solid rgb(240, 240, 240);
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #336BB0;
+    cursor: pointer;
+}
+.my-class-2{
+    margin-top: -500px;
+    border: 5px solid rgba(214, 214, 214, 0.322);
+    padding: 10px;
+}
+
+.my-class-2 h3{
+    font-size: 19px;
+    color: #336BB0;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.my-class-2 h1{
+    font-size: 21px;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.my-class-2 span{
+    color: red;
+    font-weight: 400;
+}
+
+.my-class-2 p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.form label{
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.form input{
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 3px 10px;
+    width: 40%;
+
+}
+
+.form input:focus{
+    box-shadow: 2px 2px 5px rgb(180, 218, 250), -2px -2px 5px rgb(180, 218, 250);
+}
+
+.form input::placeholder{
+    color: rgb(182, 182, 182);
+}
+
+.input-captcha{
+    background:linear-gradient(#000000, #ffffff);
+    padding: 5px 15px !important;
+    height: 65px !important;
+    width: 20% !important;
+    font-size: 35px;
+    border: none !important;
+   
+}
+
+.input-captcha::placeholder{
+    color: black !important;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 14px !important;
+    background-color: #336BB0 !important;
+    border: 1px solid #336BB0 !important;
+}
+
+.btn:hover{
+    background-color: #1f5ca7 !important;
+}
+.result{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.result span{
+    text-align: right;
+    margin-right: 70px;
+    font-size: 15px;
+    color: black;
+   
+}
+hr{
+    border: .1rem solid black;
+    border-bottom: none;
+    opacity: 1 !important;
+}
+
+.hr-style-2{
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 15px;
+}
